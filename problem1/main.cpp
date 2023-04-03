@@ -20,6 +20,15 @@ string cleanSpacesStringAtEnd(string str) {
     return str;
 }
 
+string replaceNullWithSpaces(string str) {
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] == '\0') {
+            str[i] = ' ';
+        }
+    }
+    return str;
+}
+
 struct Alumno {
     char codigo[5];
     char nombre[11];
@@ -50,9 +59,20 @@ public:
     }
 
     void add(Alumno record) {
+        string codigo = string(record.codigo, sizeof(Alumno::codigo));
+        string nombre = string(record.nombre, sizeof(Alumno::nombre));
+        string apellidos = string(record.apellidos, sizeof(Alumno::apellidos));
+        string carrera = string(record.carrera, sizeof(Alumno::carrera));
+
+        codigo = replaceNullWithSpaces(codigo);
+        nombre = replaceNullWithSpaces(nombre);
+        apellidos = replaceNullWithSpaces(apellidos);
+        carrera = replaceNullWithSpaces(carrera);
+
         file.clear();
         file.seekp(0, ios::end);
-        file.write((char *) &record, sizeof(record));
+
+        file << codigo << nombre << apellidos << carrera;
         WRITE_END_LINE_LINUX(file);
     }
 
