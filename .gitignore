@@ -1,2 +1,6 @@
 .idea
+.vscode
+.build
+.problema2/.vscode
+.problema2/.build
 cmake-build-debug
