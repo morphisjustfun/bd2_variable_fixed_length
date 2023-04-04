@@ -1,7 +1,8 @@
-0001 Howard     Paredes Zegarra     Computacion    8  331.41   
-0002 Penny      Vargas Cordero      Industrial     3  811.21   
-0003 Sheldon    Cooper Vega         Mecatronica    4  2210.21  
-0004 Pamela     Vargas Cordero      Industrial     5  331.21   
-0005 Vanesa     Cooper Quizpe       Mecatronica    8  391.21   
-0006 Jesus      Vega Cordero        Industrial     1  331.21   
-0007 Heider     Sanchez Quizpe      Mecatronica    2  331.21   
+                                                               -1 
+0001 Howard     Paredes Zegarra     Computacion    8  331.41      
+0002 Penny      Vargas Cordero      Industrial     3  811.21      
+0003 Sheldon    Cooper Vega         Mecatronica    4  2210.21     
+0004 Pamela     Vargas Cordero      Industrial     5  331.21      
+0005 Vanesa     Cooper Quizpe       Mecatronica    8  391.21      
+0006 Jesus      Vega Cordero        Industrial     1  331.21      
+0007 Heider     Sanchez Quizpe      Mecatronica    2  331.21      
