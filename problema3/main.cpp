@@ -99,7 +99,7 @@ public:
 };
 
 int main() {
-    VariableRecord fixedRecord("../datos.txt");
+    VariableRecord fixedRecord("datos.txt");
     fixedRecord.addReccord({"Juan", "Perez", "Ingenieria", 1000.9});
     fixedRecord.addReccord({"Juana", "Peres", "Arte", 1300.56});
     fixedRecord.addReccord({"Juanito", "Perrez", "Psicologia", 1500.1});

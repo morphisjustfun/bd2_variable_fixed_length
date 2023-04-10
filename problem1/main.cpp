@@ -90,7 +90,7 @@ public:
 };
 
 int main() {
-    FixedRecord fixedRecord("../datos1.txt");
+    FixedRecord fixedRecord("datos.txt");
 
     // load test
     assert(fixedRecord.load().size() == 7);

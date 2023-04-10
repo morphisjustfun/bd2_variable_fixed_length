@@ -171,7 +171,7 @@ public:
 };
 
 int main() {
-    FixedRecord fixedRecord("../datos.txt");
+    FixedRecord fixedRecord("datos.txt");
     fixedRecord.add(Alumno{"1234", "Juan", "Perez", "Ingenieria", 1, 331.41});
     fixedRecord.add(Alumno{"1235", "Pedro", "Simpson", "Psicologia", 4, 33.41});
     fixedRecord.add(Alumno{"1236", "Maria", "Lopez", "Ingenieria", 2, 321.41});
